@@ -1,7 +1,7 @@
+LICENSE
 README.md
 setup.py
 dict2xlsx/__init__.py
-dict2xlsx/dict2xlsx.py
 dict2xlsx.egg-info/PKG-INFO
 dict2xlsx.egg-info/SOURCES.txt
 dict2xlsx.egg-info/dependency_links.txt

@@ -33,7 +33,7 @@ pip install dict2xlsx
 ## Usage
 
 ```python
-import dict2xlsx
+from dict2xlsx import Dict2XLSX
 
 data = [
     {'first_name': 'Satyam', 'last_name': 'Lohiya', 'age': '21'},
@@ -42,7 +42,7 @@ data = [
 ]
 
 
-xlsx_obj = dict2xlsx(data)
+xlsx_obj = Dict2XLSX(data)
 xlsx_obj.save('output.xlsx')
 ```
 

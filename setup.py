@@ -1,4 +1,7 @@
 from setuptools import setup, find_packages
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='dict2xlsx',
@@ -6,7 +9,8 @@ setup(
     license='MIT',
     version='0.0.1',
     description='Python Package to convert dict to xlsx',
-    long_description='',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author='Satyam Lohiya',
     author_email='lohiyasatyam@gmail.com',
     install_requires=['openpyxl'],
@@ -16,8 +20,6 @@ setup(
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
-        'Intended Audience :: Automation',
-        'Topic :: Data',
         'License :: OSI Approved :: MIT License',
         'Operating System :: Unix',
         'Operating System :: POSIX :: Linux',

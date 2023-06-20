@@ -1,6 +1,6 @@
 from openpyxl import Workbook
 
-class dict2xlsx:
+class Dict2XLSX:
     def __init__(self, data):
         self.book = Workbook()
         sheet = self.book.active
